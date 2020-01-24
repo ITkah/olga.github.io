@@ -764,11 +764,11 @@ header {
       margin-bottom: 20px; } }
   @media (max-width: 576px) {
     .me-photo-mob {
-      right: 0;
+      right: -24px;
       top: 30px; } }
   @media (max-width: 576px) {
     .me-photo-mob img {
-      max-width: 100%;
+      max-width: 120%;
       height: auto;
       margin-left: auto; } }
 
