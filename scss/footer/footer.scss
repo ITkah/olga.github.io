@@ -1,0 +1,128 @@
+footer {
+    background: #40A798;
+    .container {
+        padding: 40px 0;
+        @media (max-width: 990px) {
+            padding: 30px 0;
+        }
+    }
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    @media (max-width: 1200px) {
+        margin-bottom: 20px;
+    }
+    @media (max-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 23px;
+    }
+}
+
+.footer-name {
+    font: normal 1.25rem "Merriweather", serif;
+    color: #fff;
+    @media (max-width: 990px) {
+        margin-bottom: 20px;
+    }
+    @media (max-width: 768px) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 0;
+    }
+}
+
+.footer-nav {
+    display: flex;
+    @media (max-width: 990px) {
+        margin-bottom: 20px;
+    }
+    @media (max-width: 768px) {
+        margin: 0;
+    }
+    @media (max-width: 768px) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    li {
+        margin: 0 25px;
+        @media (max-width: 768px) {
+            margin: 0;
+        }
+        a {
+            font: normal .95rem "Roboto", sans-serif;
+            color: #fff;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.footer-feedback {
+    display: flex;
+    align-items: center;
+    @media (max-width: 768px) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    a {
+        font: normal .95rem "Roboto", sans-serif;
+        color: #fff;
+        margin-right: 20px;
+        @media (max-width: 768px) {
+            margin-right: 30px;
+        }
+    }
+}
+
+.footer-call {
+    @media (max-width: 768px) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        margin: 0 auto;
+    }
+    a {
+        display: block;
+    }
+}
+
+.copyright {
+    display: flex;
+    @media (max-width: 768px) {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    p,
+    a {
+        font: normal .87rem "Roboto", sans-serif;
+        opacity: .5;
+        color: #000;
+        margin-right: 10px;
+        @media (max-width: 768px) {
+            display: block;
+        }
+    }
+    a {
+        @media (max-width: 768px) {
+            margin-bottom: 5px;
+        }
+        text-decoration: underline;
+    }
+}
+
+.year {
+    display: none;
+    @media (max-width: 990px) {
+        display: inline-block;
+    }
+}

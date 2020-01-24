@@ -1,0 +1,39 @@
+@import '../css/slick.css';
+@import '../css/slick-theme.css';
+@import '../css/magnific-popup.css';
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+main {
+    min-height: calc(100vh - 80px);
+}
+
+@import 'header/header.scss';
+@import 'page/page.scss';
+@import 'modal/modal.scss';
+@import 'footer/footer.scss';
+@import 'const/const.scss';
