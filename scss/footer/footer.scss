@@ -51,19 +51,19 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
     }
-    li {
-        margin: 0 25px;
-        @media (max-width: 768px) {
-            margin: 0;
-        }
+
         a {
             font: normal .95rem "Roboto", sans-serif;
             color: #fff;
+            margin: 0 25px;
+            @media (max-width: 768px) {
+                margin: 0;
+            }
             &:hover {
                 text-decoration: underline;
             }
         }
-    }
+    
 }
 
 .footer-feedback {
@@ -106,7 +106,7 @@ footer {
     a {
         font: normal .87rem "Roboto", sans-serif;
         opacity: .5;
-        color: #000;
+        color: #fff;
         margin-right: 10px;
         @media (max-width: 768px) {
             display: block;

@@ -16,41 +16,45 @@
     <div class="wrapper">
         <header class="padding">
             <div class="container">
-                <div class="header-wrapper">
-                    <div class="logo-header">
-                        <p>Ольга Итяксова</p>
-                        <a href="#" class="text whats-header-mob">+7 926 099-12-84</a>
-                    </div>
-                    <div class="menu-btn menu-active"></div>
-                    <nav>
-                        <div class="wrapper-nav">
-                            <a href="#" class="text">Главная</a>
-                            <a href="#" class="text">Обо мне</a>
-                            <a href="#" class="text">Услуги</a>
-                            <a href="#" class="text">Публикации</a>
-                            <a href="#" class="text">Отзывы</a>
-                            <a href="#feedback" class="call-header-mob popup-with-form">Перезвоните мне</a>
-                            <div class="social-box-header">
-                                <p class="text">Больше интересного тут:</p>
-                                <div class="social-link">
-                                    <a href="#">
-                                        <img src="img/icon/fb-2.svg" alt="fb">
-                                    </a>
-                                    <a href="#">
-                                        <img src="img/icon/inst.svg" alt="ins">
-                                    </a>
-                                    <a href="#">
-                                        <img src="img/icon/yb.svg" alt="yb">
-                                    </a>
-                                    <a href="#">
-                                        <img src="img/icon/ww.svg" alt="ww">
-                                    </a>
+                <div class="header-menu">
+                    <div class="header-wrapper">
+                        <div class="logo-header">
+                            <p>Ольга Итяксова</p>
+                            <a href="#" class="text whats-header-mob">+7 926 099-12-84</a>
+                        </div>
+                        <div class="menu-btn menu-active"></div>
+                        <nav>
+                            <div class="wrapper-nav">
+                                <div class="menu-ikor">
+                                    <a href="/" class="text">Главная</a>
+                                    <a href="#about" class="text">Обо мне</a>
+                                    <a href="#usluga" class="text">Услуги</a>
+                                    <a href="#public" class="text">Публикации</a>
+                                    <a href="#otziv" class="text">Отзывы</a>
+                                </div>
+                                <a href="#feedback" class="call-header-mob popup-with-form">Перезвоните мне</a>
+                                <div class="social-box-header">
+                                    <p class="text">Больше интересного тут:</p>
+                                    <div class="social-link">
+                                        <a href="#">
+                                            <img src="img/icon/fb-2.svg" alt="fb">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/icon/inst.svg" alt="ins">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/icon/yb.svg" alt="yb">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/icon/ww.svg" alt="ww">
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </nav>
-                    <a href="#" class="text whats-header">+7 926 099-12-84</a>
-                    <a href="#feedback" class="call-header popup-with-form">Перезвоните мне</a>
+                        </nav>
+                        <a href="#" class="text whats-header">+7 926 099-12-84</a>
+                        <a href="#feedback" class="call-header popup-with-form">Перезвоните мне</a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -93,7 +97,7 @@
                     </div>
                 </div>
             </section>
-            <section class="about padding">
+            <section class="about padding" id="about">
                 <div class="container">
                     <div class="about-wrapper">
                         <div class="about-info">
@@ -125,8 +129,8 @@
                                 </p>
                             </div>
                             <div class="services-btn">
-                                <p class="text">Стоимость: 3000 руб/ч</p>
-                                <a href="#" class="btn-blue">Записаться</a>
+                                <p class="text">Стоимость: <span>3000 руб/ч</span></p>
+                                <a href="#feedback" class="btn-blue popup-with-form curse-change" data-curse="Психологические и коучинговые консультации3">Записаться</a>
                             </div>
                         </div>
                         <div class="services-box">
@@ -138,8 +142,8 @@
                                 </p>
                             </div>
                             <div class="services-btn">
-                                <p class="text">Стоимость: 3000 руб/ч</p>
-                                <a href="#" class="btn-blue">Записаться</a>
+                                <p class="text">Стоимость: <span>3000 руб/ч</span></p>
+                                <a href="#feedback" class="btn-blue popup-with-form curse-change" data-curse="Психологические и коучинговые консультации3">Записаться</a>
                             </div>
                         </div>
                         <div class="services-box">
@@ -151,8 +155,8 @@
                                 </p>
                             </div>
                             <div class="services-btn">
-                                <p class="text">Стоимость: 3000 руб/ч</p>
-                                <a href="#" class="btn-blue">Записаться</a>
+                                <p class="text">Стоимость: <span>3000 руб/ч</span></p>
+                                <a href="#feedback" class="btn-blue popup-with-form curse-change" data-curse="Психологические и коучинговые консультации3">Записаться</a>
                             </div>
                         </div>
                     </div>
@@ -304,23 +308,13 @@
                     <p class="footer-name">
                         Ольга Итяксова
                     </p>
-                    <ul class="footer-nav">
-                        <li>
-                            <a href="#">Главная</a>
-                        </li>
-                        <li>
-                            <a href="#">Обо мне</a>
-                        </li>
-                        <li>
-                            <a href="#">Услуги</a>
-                        </li>
-                        <li>
-                            <a href="#">Публикации</a>
-                        </li>
-                        <li>
-                            <a href="#">Отзывы</a>
-                        </li>
-                    </ul>
+                    <div class="footer-nav menu-ikor">
+                            <a href="/" class="text">Главная</a>
+                            <a href="#about" class="text">Обо мне</a>
+                            <a href="#usluga" class="text">Услуги</a>
+                            <a href="#public" class="text">Публикации</a>
+                            <a href="#otziv" class="text">Отзывы</a>
+                    </div>
                     <div class="footer-feedback">
                         <a href="tell:+79260991284">+7 926 099-12-84</a>
                         <img src="img/icon/whatsup.svg" alt="whatsp">
@@ -343,8 +337,9 @@
         <div class="form-feedback">
             <p class="form-title">Правильное решение!</p>
             <p class="form-text">Заполните форму и я вскоре свяжусь с вами</p>
+            <input type="hidden" value="Курс не выбран" class="curse-input" name="curse">
             <input type="text" name="name" placeholder="Имя" minlength="2" required>
-            <input type="num" name="num" placeholder="Телефон" minlength="10" required>
+            <input type="text" name="phone" placeholder="Телефон" class="phons" minlength="8" required>
             <div class="btn-wrap-form">
                 <button type="submit">Отправить</button>
             </div>

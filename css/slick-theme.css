@@ -59,11 +59,11 @@
 }
 
 .slick-prev {
-    left: -34px;
+    left: -44px;
 }
 
 [dir='rtl'] .slick-prev {
-    right: -34px;
+    right: -44px;
     left: auto;
 }
 
@@ -78,13 +78,14 @@
 } */
 
 .slick-next {
-    right: -30px;
+    right: -40px;
 }
 
 [dir='rtl'] .slick-next {
     right: auto;
-    left: -30px;
+    left: -40px;
 }
+
 
 .slick-next:before {
     content: url(../img/icon/right.svg);
@@ -186,7 +187,7 @@
     background: transparent;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .slick-prev:before {
         content: url(../img/icon/left-sm.svg);
     }
